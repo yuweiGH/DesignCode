@@ -25,9 +25,9 @@ class Demo {
         consoleReporter.startRepeatedReport(60, 60);
 
         EmailViewer emailViewer = new EmailViewer();
-        emailViewer.addToAddress("xxx.com");
-        EmailReporter emailReporter = new EmailReporter(storage, aggregator,emailViewer);
+        emailViewer.addToAddress("");
 
+        EmailReporter emailReporter = new EmailReporter(storage, aggregator, emailViewer);
         emailReporter.startDailyReport();
 
         MetricsCollector collector = new MetricsCollector(storage);
