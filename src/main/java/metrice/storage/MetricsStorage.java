@@ -1,7 +1,9 @@
-package metrice;
+package metrice.storage;
 
 import java.util.List;
 import java.util.Map;
+
+import metrice.model.RequestInfo;
 
 /**
  * @ClassName: MetricsStorage

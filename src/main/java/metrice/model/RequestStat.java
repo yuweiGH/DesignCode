@@ -1,4 +1,4 @@
-package metrice;
+package metrice.model;
 
 import lombok.Getter;
 import lombok.Setter;

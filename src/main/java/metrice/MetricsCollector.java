@@ -1,5 +1,7 @@
 package metrice;
 
+import metrice.model.RequestInfo;
+import metrice.storage.MetricsStorage;
 import org.apache.commons.lang3.StringUtils;
 
 /**
